@@ -1,0 +1,33 @@
+/*
+* Jasmine Middaugh
+* 05 December 2018
+* Girl Develop It and Creating a page that matches the page given to us by our teacher
+*/
+
+/* The universal selector */
+
+* { 
+
+}
+
+/* Body attributes here */
+
+body {
+
+    background-color: rgb(255, 204, 204)
+
+}
+/*Two header details that centered the logo and gave it background color*/
+header {text-align: center}
+header {background-color: rgb(255, 102, 102)}
+/*Font that matches the one given to us for the project for the main and sub heading*/
+h1 {font-family:"Lucida Calligraphy", cursive;
+    text-decoration: underline;}
+h2 {font-family:"Lucida Calligraphy", cursive;
+    text-decoration: underline;}
+/*Two pictures on the site floated to the right of the text and cleared after*/
+#girlswithlaptops {width: 350px; height: 225px; float: right;}
+#notboyfriend {width: 350px; height: 225px; float: right;}
+#next_para {clear:right;}
+/*This makes the links pink when you hover your mouse over them*/
+a:hover, a:focus {color: deeppink; text-decoration: underline; font-size: 150%;}
